@@ -15,7 +15,7 @@ spec:
         app: petclinic
     spec:
       containers:
-      - image: quay.io/kako1/petclinic:latest
+      - image: quay.io/drizzle32h/petclinic:latest
         imagePullPolicy: Always
         livenessProbe:
           failureThreshold: 3
